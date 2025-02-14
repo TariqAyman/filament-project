@@ -119,12 +119,6 @@ Modify `resources/views/layouts/app.blade.php` (or create it):
 
 ---
 
-## **Removing Precompiled Assets**
-- Delete any `public/css`, `public/js`, or `public/build` directories.
-- Ensure Filament loads assets from Vite and not from precompiled files.
-
----
-
 ## **Testing and Validation**
 
 ### **4. Run in Development Mode**
