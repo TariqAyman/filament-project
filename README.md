@@ -14,7 +14,8 @@ composer create-project laravel/laravel filament-project
 cd filament-project
 composer require filament/filament
 php artisan filament:install
-php artisan make:filament-user  # Create an admin user
+php artisan migrate
+php artisan make:filament-user --name=Admin --email="admin@admin.com" --password="password"  # Create an admin user
 ```
 
 Verify that the Filament dashboard is accessible at `/admin`.
